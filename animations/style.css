@@ -1,0 +1,20 @@
+.cabrita {
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    width: 250px;
+    animation-timing-function: linear;
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: 65%;
+    }
+
+    50% {
+        margin-left: 0%;
+    }
+    100% {
+        margin-left: 65%;
+    }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>tenta abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="m.jpg" type="image/jpg">
+        <img src="g.jpg" alt="G flex">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>Audios em html5</p>
+    <audio autoplay="autoplay" controls="controls">
+        <source src="musica.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>

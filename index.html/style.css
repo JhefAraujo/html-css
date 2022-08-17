@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: rgb(173, 147, 113);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+main > p {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+    height: 660px;
+    background-color: white;
+}
+
+main > h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main > p {
+    margin-top: ;
+    font-size: large;
+}
+
+.cabrita {
+    width: 40%;
+}
